@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "emt/features-table",
+  "version": "0.1.0",
+  "title": "EMT Features Table",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Table to compare features",
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "textdomain": "emt-features-table",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "features": {
+      "type": "array",
+      "default": []
+    },
+    "plans": {
+      "type": "array",
+      "default": []
+    },
+    "featuresTable": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

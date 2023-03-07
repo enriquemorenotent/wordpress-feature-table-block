@@ -1,0 +1,103 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-emt-features-table {
+	input[type="text"] {
+		width: 100%;
+		border: 0;
+	}
+
+	input {
+	}
+
+	// Reset all styles for tables
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: none;
+	}
+
+	// Reset all styles for table cells
+	td {
+		border: none;
+		padding: 0;
+		background-color: cadetblue;
+	}
+
+	// Reset all styles for table headers
+	th {
+		border: none;
+		padding: 0;
+	}
+
+	// Reset all styles for table rows
+	tr {
+		border: none;
+		padding: 0;
+	}
+
+	// Reset all styles for table footers
+	tfoot {
+		border: none;
+		padding: 0;
+	}
+
+	// Reset all styles for table headers
+	thead {
+		border: none;
+		padding: 0;
+	}
+
+	// Reset all styles for table bodies
+	tbody {
+		border: none;
+		padding: 0;
+	}
+
+	// even th
+	th:nth-child(even) {
+		background-color: sandybrown;
+	}
+
+	th:nth-child(odd) {
+		background-color: yellowgreen;
+	}
+
+	tr:not(:last-child) {
+		border-bottom: 1px solid #000;
+	}
+
+	.centered {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	.p-10 {
+		padding: 10px;
+	}
+
+	// A grid system where all the cells are the same width
+	.grid-table {
+		display: grid;
+		gap: 0 10px;
+	}
+
+	.box-grid {
+		background-color: cornflowerblue;
+	}
+	.box-grid-top {
+		border-radius: 20px 20px 0 0;
+		background-color: cornflowerblue;
+	}
+	.box-grid-bottom {
+		border-radius: 0 0 20px 20px;
+		background-color: cornflowerblue;
+	}
+}
